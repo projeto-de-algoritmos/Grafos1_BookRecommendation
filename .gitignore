@@ -1,0 +1,6 @@
+amazon-meta.txt
+amazon-meta.txt.gz
+books.html
+__pycache__
+.ipynb_checkpoints
+.python-version

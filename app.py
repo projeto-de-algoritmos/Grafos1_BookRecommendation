@@ -1,6 +1,6 @@
-import book_recommendation as br
+import book_recommendation.book_recommendation as br
+import book_recommendation.graph_util
 import streamlit as st
-import graph_util
 import pandas as pd
 
 

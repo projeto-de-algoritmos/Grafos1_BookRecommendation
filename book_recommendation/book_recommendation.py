@@ -1,6 +1,6 @@
 from pyvis.network import Network
-import graph_util
-import book_recommendation as br
+import book_recommendation.graph_util as gu
+import book_recommendation.book_recommendation as br
 import pandas as pd
 import numpy as np
 import re
@@ -93,7 +93,7 @@ def get_vertex_list(products_filtered):
 
 def get_components(all_vertex_list, products_filtered):
 
-    g = graph_util.Graph(len(all_vertex_list))
+    g = gu.Graph(len(all_vertex_list))
 
     # add edge
     for product in products_filtered:
